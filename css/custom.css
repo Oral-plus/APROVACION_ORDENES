@@ -1,0 +1,125 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+.campo {
+
+margin-left: 40px;
+
+}
+
+
+
+label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 140px;
+    box-sizing: border-box;
+ 
+}
+
+select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50; /* Color verde */
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer;
+    border: 1px #4caf50;
+    padding: 10px 55px;
+    font-size: 14px;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+h1{
+    font-family: 'Old Standard TT', serif;
+}
+
+img{
+    width: 150px;
+    
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+
+
+}
+
+th {
+    background-color: #f2f2f2;
+
+}
+
+tr{
+    font-size: 15px;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.scrollable-table {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.calendario{
+    width: 25px;
+    position: absolute;
+    margin: 3px;
+    color: #4caf50;
+}
